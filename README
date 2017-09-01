@@ -17,6 +17,10 @@ perldoc command.
 
     perldoc PDC
 
+Configuration in lib/PDC/RestClient.pm
+line 228 PDC server
+line 124 for TOKEN
+
 COPYRIGHT AND LICENCE
 
 Copyright (C) 2017 Yang,Ren
