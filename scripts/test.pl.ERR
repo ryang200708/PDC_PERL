@@ -1,0 +1,33 @@
+Perltidy version is 20170521
+
+212: my $rpm = PDC::RPM->new('429840');
+                              ^        
+found Number where operator expected
+
+212: my $rpm = PDC::RPM->new('429840');
+                              ------^  
+found String where operator expected (previous token underlined)
+
+214: my $compose = PDC::Compose->new('RHEL-7.4-20170710.0');
+                                      ^                     
+found bareword where operator expected
+
+214: my $compose = PDC::Compose->new('RHEL-7.4-20170710.0');
+                                               ----------^  
+found String where operator expected (previous token underlined)
+
+216: my $release = PDC::Release->new($compose->{'release'});
+                                                 ^          
+found bareword where operator expected
+
+218: my $product_version = PDC::ProductVersion->new($release->{'produ ...
+                                                                ^        
+found bareword where operator expected
+223:	final indentation level: 1
+
+Final nesting depth of '('s is 1
+The most recent un-matched '(' is on line 200
+200: my $product = PDC::Product->new('ceph);
+                                    ^
+223:	hit EOF seeking end of quote/pattern starting at line 200 ending in '
+223:	To save a full .LOG file rerun with -g

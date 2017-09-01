@@ -1,0 +1,80 @@
+$VAR1 = bless( {
+                 'filename' => 'redhat-release-workstation-7.4-18.el7.x86_64.rpm',
+                 'srpm_name' => 'redhat-release-workstation',
+                 'linked_releases' => [],
+                 'version' => '7.4',
+                 'srpm_nevra' => 'redhat-release-workstation-0:7.4-18.el7.src',
+                 'arch' => 'x86_64',
+                 'epoch' => 0,
+                 'name' => 'redhat-release-workstation',
+                 'id' => 429840,
+                 'built_for_release' => undef,
+                 'dependencies' => {
+                                     'requires' => [],
+                                     'conflicts' => [],
+                                     'suggests' => [],
+                                     'obsoletes' => [],
+                                     'provides' => [],
+                                     'recommends' => []
+                                   },
+                 'compose' => bless( {
+                                       'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170710.0/rpm-mapping/{{package}}/',
+                                       'compose_respin' => 0,
+                                       'compose_type' => 'production',
+                                       'linked_releases' => [
+                                                              'nfv-7.4@rhel-7',
+                                                              'rt-7.4@rhel-7',
+                                                              'sap-7.4@rhel-7',
+                                                              'saphana-7.4@rhel-7'
+                                                            ],
+                                       'acceptance_testing' => 'untested',
+                                       'compose_date' => '2017-07-10',
+                                       'compose_label' => 'RC-1.1',
+                                       'compose_id' => 'RHEL-7.4-20170710.0',
+                                       'sigkeys' => [
+                                                      'fd431d51'
+                                                    ],
+                                       'deleted' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                                       'release' => bless( {
+                                                             'dist_git' => {
+                                                                             'branch' => 'rhel-7.4'
+                                                                           },
+                                                             'integrated_with' => undef,
+                                                             'active' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                                                             'short' => 'rhel',
+                                                             'release_type' => 'ga',
+                                                             'release_id' => 'rhel-7.4',
+                                                             'product_pages' => {
+                                                                                  'release_id' => 680
+                                                                                },
+                                                             'product_version' => bless( {
+                                                                                           'name' => 'Red Hat Enterprise Linux',
+                                                                                           'product' => bless( {
+                                                                                                                 'active' => $VAR1->{'compose'}{'release'}{'active'},
+                                                                                                                 'short' => 'rhel',
+                                                                                                                 'internal' => $VAR1->{'compose'}{'deleted'},
+                                                                                                                 'name' => 'Red Hat Enterprise Linux'
+                                                                                                               }, 'PDC::Product' ),
+                                                                                           'short' => 'rhel',
+                                                                                           'active' => $VAR1->{'compose'}{'release'}{'active'},
+                                                                                           'product_version_id' => 'rhel-7',
+                                                                                           'version' => '7'
+                                                                                         }, 'PDC::ProductVersion' ),
+                                                             'version' => '7.4',
+                                                             'bugzilla' => undef,
+                                                             'errata' => {
+                                                                           'product_version' => 'RHEL-7'
+                                                                         },
+                                                             'name' => 'Red Hat Enterprise Linux',
+                                                             'base_product' => undef,
+                                                             'brew' => {
+                                                                         'default_target' => 'rhel-7.4-candidate',
+                                                                         'allowed_tags' => [
+                                                                                             'rhel-7.4',
+                                                                                             'rhel-7.4-candidate'
+                                                                                           ]
+                                                                       }
+                                                           }, 'PDC::Release' )
+                                     }, 'PDC::Compose' ),
+                 'release' => '18.el7'
+               }, 'PDC::RPM' );

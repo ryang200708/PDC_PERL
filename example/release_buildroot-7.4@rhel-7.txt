@@ -1,0 +1,1470 @@
+$VAR1 = bless( {
+                 'name' => 'Buildroot',
+                 'product_version' => 'buildroot-7',
+                 'base_product' => 'rhel-7',
+                 'release_id' => 'buildroot-7.4@rhel-7',
+                 'version' => '7.4',
+                 'active' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                 'compose_set' => [
+                                    bless( {
+                                             'acceptance_testing' => 'untested',
+                                             'deleted' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                                             'release' => 'rhel-7.4',
+                                             'compose_type' => 'nightly',
+                                             'compose_id' => 'RHEL-7.4-20170411.n.2',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'rtt_tested_architectures' => {
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    's390x' => 'untested'
+                                                                                                  },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'ppc64le' => 'untested',
+                                                                                                   'x86_64' => 'untested'
+                                                                                                 },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   }
+                                                                           },
+                                             'compose_date' => '2017-04-11',
+                                             'compose_respin' => 2,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170411.n.2/rpm-mapping/{{package}}/'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_id' => 'RHEL-7.4-20170411.n.3',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'acceptance_testing' => 'untested',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'compose_type' => 'nightly',
+                                             'compose_date' => '2017-04-11',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_respin' => 3,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170411.n.3/rpm-mapping/{{package}}/',
+                                             'rtt_tested_architectures' => {
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       }
+                                                                           }
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_date' => '2017-04-13',
+                                             'compose_respin' => 0,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170413.n.0/rpm-mapping/{{package}}/',
+                                             'rtt_tested_architectures' => {
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     's390x' => 'untested'
+                                                                                                   },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    's390x' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              }
+                                                                           },
+                                             'compose_id' => 'RHEL-7.4-20170413.n.0',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'acceptance_testing' => 'untested',
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'compose_type' => 'nightly'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_date' => '2017-04-13',
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170413.n.1/rpm-mapping/{{package}}/',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_respin' => 1,
+                                             'rtt_tested_architectures' => {
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     's390x' => 'untested'
+                                                                                                   },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-optional' => {
+                                                                                                    's390x' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           's390x' => 'untested',
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             }
+                                                                           },
+                                             'compose_id' => 'RHEL-7.4-20170413.n.1',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'acceptance_testing' => 'untested',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'compose_type' => 'nightly'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_id' => 'RHEL-7.4-20170414.n.0',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'acceptance_testing' => 'untested',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'compose_type' => 'nightly',
+                                             'compose_date' => '2017-04-14',
+                                             'compose_respin' => 0,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170414.n.0/rpm-mapping/{{package}}/',
+                                             'rtt_tested_architectures' => {
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested'
+                                                                                                   },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       }
+                                                                           }
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_type' => 'nightly',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'acceptance_testing' => 'untested',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170417.n.0',
+                                             'rtt_tested_architectures' => {
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-optional' => {
+                                                                                                    's390x' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested'
+                                                                                                  },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested'
+                                                                                             },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested'
+                                                                                         },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  }
+                                                                           },
+                                             'compose_respin' => 0,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170417.n.0/rpm-mapping/{{package}}/',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_date' => '2017-04-17'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'rtt_tested_architectures' => {
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-optional' => {
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested'
+                                                                                                  },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'ppc64le' => 'untested',
+                                                                                                   'x86_64' => 'untested'
+                                                                                                 },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'Server-Buildroot' => {
+                                                                                                     's390x' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested'
+                                                                                                   },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          }
+                                                                           },
+                                             'compose_date' => '2017-04-18',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_respin' => 1,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170418.n.1/rpm-mapping/{{package}}/',
+                                             'acceptance_testing' => 'untested',
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'compose_type' => 'nightly',
+                                             'compose_id' => 'RHEL-7.4-20170418.n.1',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ]
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'compose_type' => 'nightly',
+                                             'acceptance_testing' => 'untested',
+                                             'compose_id' => 'RHEL-7.4-20170418.n.2',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'rtt_tested_architectures' => {
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     's390x' => 'untested'
+                                                                                                   },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-optional' => {
+                                                                                                    's390x' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             }
+                                                                           },
+                                             'compose_respin' => 2,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170418.n.2/rpm-mapping/{{package}}/',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_date' => '2017-04-18'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'compose_type' => 'nightly',
+                                             'acceptance_testing' => 'untested',
+                                             'compose_id' => 'RHEL-7.4-20170419.n.0',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'rtt_tested_architectures' => {
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested'
+                                                                                             },
+                                                                             'Server' => {
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           'x86_64' => 'untested',
+                                                                                           's390x' => 'untested'
+                                                                                         },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     's390x' => 'untested'
+                                                                                                   }
+                                                                           },
+                                             'compose_respin' => 0,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170419.n.0/rpm-mapping/{{package}}/',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_date' => '2017-04-19'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'acceptance_testing' => 'untested',
+                                             'compose_type' => 'nightly',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170419.n.1',
+                                             'rtt_tested_architectures' => {
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'ppc64le' => 'untested',
+                                                                                                   'x86_64' => 'untested'
+                                                                                                 },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested'
+                                                                                                   },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested'
+                                                                                                  },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             }
+                                                                           },
+                                             'compose_date' => '2017-04-19',
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170419.n.1/rpm-mapping/{{package}}/',
+                                             'compose_respin' => 1,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ]
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_date' => '2017-04-20',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170420.n.0/rpm-mapping/{{package}}/',
+                                             'compose_respin' => 0,
+                                             'rtt_tested_architectures' => {
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    's390x' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested'
+                                                                                                   },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         }
+                                                                           },
+                                             'sigkeys' => [
+                                                            'fd431d51'
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170420.n.0',
+                                             'acceptance_testing' => 'untested',
+                                             'compose_type' => 'nightly',
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'}
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_respin' => 4,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170420.n.4/rpm-mapping/{{package}}/',
+                                             'compose_date' => '2017-04-20',
+                                             'rtt_tested_architectures' => {
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'ppc64le' => 'untested',
+                                                                                                   'x86_64' => 'untested'
+                                                                                                 },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     's390x' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested'
+                                                                                                   },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    'ppc64' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested'
+                                                                                             }
+                                                                           },
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170420.n.4',
+                                             'compose_type' => 'nightly',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'acceptance_testing' => 'untested'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'rtt_tested_architectures' => {
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'Server-Buildroot' => {
+                                                                                                     's390x' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'ppc64' => 'untested',
+                                                                                                     'ppc64le' => 'untested'
+                                                                                                   },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server-SAP' => {
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested',
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server' => {
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           'ppc64' => 'untested'
+                                                                                         },
+                                                                             'Server-optional' => {
+                                                                                                    's390x' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested'
+                                                                                                  },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       }
+                                                                           },
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170420.n.5/rpm-mapping/{{package}}/',
+                                             'compose_respin' => 5,
+                                             'compose_date' => '2017-04-20',
+                                             'compose_type' => 'nightly',
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'acceptance_testing' => 'untested',
+                                             'sigkeys' => [
+                                                            'fd431d51'
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170420.n.5'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_type' => 'nightly',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'release' => 'rhel-7.4',
+                                             'acceptance_testing' => 'untested',
+                                             'sigkeys' => [
+                                                            'fd431d51',
+                                                            undef
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170421.n.1',
+                                             'rtt_tested_architectures' => {
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'untested'
+                                                                                         },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested'
+                                                                                                   },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            'ppc64le' => 'untested'
+                                                                                                          },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'untested',
+                                                                                           'ppc64le' => 'untested',
+                                                                                           's390x' => 'untested',
+                                                                                           'x86_64' => 'untested',
+                                                                                           'aarch64' => 'untested'
+                                                                                         },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'untested'
+                                                                                              },
+                                                                             'Server-SAP' => {
+                                                                                               'x86_64' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               'ppc64' => 'untested'
+                                                                                             },
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'aarch64' => 'untested',
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  }
+                                                                           },
+                                             'compose_respin' => 1,
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170421.n.1/rpm-mapping/{{package}}/',
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_date' => '2017-04-21'
+                                           }, 'PDC::Compose' ),
+                                    bless( {
+                                             'compose_type' => 'production',
+                                             'release' => 'rhel-7.4',
+                                             'deleted' => $VAR1->{'compose_set'}[0]{'deleted'},
+                                             'acceptance_testing' => 'passed',
+                                             'sigkeys' => [
+                                                            'fd431d51'
+                                                          ],
+                                             'compose_id' => 'RHEL-7.4-20170421.1',
+                                             'rtt_tested_architectures' => {
+                                                                             'Server-optional' => {
+                                                                                                    'ppc64' => 'untested',
+                                                                                                    'ppc64le' => 'untested',
+                                                                                                    's390x' => 'untested',
+                                                                                                    'x86_64' => 'untested',
+                                                                                                    'aarch64' => 'untested'
+                                                                                                  },
+                                                                             'Server' => {
+                                                                                           'ppc64' => 'passed',
+                                                                                           'ppc64le' => 'passed',
+                                                                                           's390x' => 'passed',
+                                                                                           'x86_64' => 'passed',
+                                                                                           'aarch64' => 'passed'
+                                                                                         },
+                                                                             'Server-SAP' => {
+                                                                                               'ppc64' => 'untested',
+                                                                                               'ppc64le' => 'untested',
+                                                                                               's390x' => 'untested',
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Workstation' => {
+                                                                                                'x86_64' => 'passed'
+                                                                                              },
+                                                                             'Server-NFV' => {
+                                                                                               'x86_64' => 'untested'
+                                                                                             },
+                                                                             'Workstation-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Workstation-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-HighAvailability' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            's390x' => 'untested',
+                                                                                                            'x86_64' => 'untested'
+                                                                                                          },
+                                                                             'Server-Buildroot' => {
+                                                                                                     'x86_64' => 'untested',
+                                                                                                     'aarch64' => 'untested',
+                                                                                                     's390x' => 'untested',
+                                                                                                     'ppc64le' => 'untested',
+                                                                                                     'ppc64' => 'untested'
+                                                                                                   },
+                                                                             'Client-Buildroot' => {
+                                                                                                     'x86_64' => 'untested'
+                                                                                                   },
+                                                                             'ComputeNode' => {
+                                                                                                'x86_64' => 'passed'
+                                                                                              },
+                                                                             'Server-ResilientStorage' => {
+                                                                                                            'ppc64le' => 'untested',
+                                                                                                            'x86_64' => 'untested',
+                                                                                                            's390x' => 'untested'
+                                                                                                          },
+                                                                             'Client-optional' => {
+                                                                                                    'x86_64' => 'untested'
+                                                                                                  },
+                                                                             'Client' => {
+                                                                                           'x86_64' => 'passed'
+                                                                                         },
+                                                                             'ComputeNode-optional' => {
+                                                                                                         'x86_64' => 'untested'
+                                                                                                       },
+                                                                             'Server-RT' => {
+                                                                                              'x86_64' => 'untested'
+                                                                                            },
+                                                                             'ComputeNode-Buildroot' => {
+                                                                                                          'x86_64' => 'untested'
+                                                                                                        },
+                                                                             'Server-SAPHANA' => {
+                                                                                                   'x86_64' => 'untested',
+                                                                                                   'ppc64le' => 'untested'
+                                                                                                 }
+                                                                           },
+                                             'rpm_mapping_template' => 'https://pdc.engineering.redhat.com/rest_api/v1/composes/RHEL-7.4-20170421.1/rpm-mapping/{{package}}/',
+                                             'compose_respin' => 1,
+                                             'linked_releases' => [
+                                                                    'buildroot-7.4@rhel-7',
+                                                                    'nfv-7.4@rhel-7',
+                                                                    'rt-7.4@rhel-7',
+                                                                    'sap-7.4@rhel-7',
+                                                                    'saphana-7.4@rhel-7'
+                                                                  ],
+                                             'compose_date' => '2017-04-21',
+                                             'compose_label' => 'Alpha-1.0'
+                                           }, 'PDC::Compose' )
+                                  ],
+                 'release_type' => bless( {
+                                            'name' => 'Release',
+                                            'suffix' => '',
+                                            'short' => 'ga'
+                                          }, 'PDC::ReleaseType' ),
+                 'integrated_with' => 'rhel-7.4',
+                 'short' => 'buildroot'
+               }, 'PDC::Release' );

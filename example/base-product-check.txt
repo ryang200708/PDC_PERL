@@ -1,0 +1,455 @@
+dp-1: ProductVersion exist
+rhel-2.1: ProductVersion exist
+rhel-2.1: Release exist
+rhel-3: ProductVersion exist
+rhel-3: Release exist
+rhel-4: ProductVersion exist
+rhel-4.5-eus: Release exist
+rhel-4.7-eus: Release exist
+rhel-5: ProductVersion exist
+rhel-5.2-eus: Release exist
+rhel-5.3-aus: Release exist
+rhel-5.3-eus: Release exist
+rhel-5.4-eus: Release exist
+rhel-5.6: Release exist
+rhel-5.6-aus: Release exist
+rhel-5.6-eus: Release exist
+rhel-5.7: Release exist
+rhel-5.8: Release exist
+rhel-5.9: Release exist
+rhel-5.9-aus: Release exist
+rhel-5.9-eus: Release exist
+rhel-6: ProductVersion exist
+rhel-6.0-eus: Release exist
+rhel-6.1: Release exist
+rhel-6.1-eus: Release exist
+rhel-6.2: Release exist
+rhel-6.2-aus: Release exist
+rhel-6.2-eus: Release exist
+rhel-6.3: Release exist
+rhel-6.3-eus: Release exist
+rhel-6.4: Release exist
+rhel-6.4-aus: Release exist
+rhel-6.4-eus: Release exist
+rhel-6.5: Release exist
+rhel-6.5-aus: Release exist
+rhel-6.5-eus: Release exist
+rhel-6.6: Release exist
+rhel-6.6-aus: Release exist
+rhel-6.6-eus: Release exist
+rhel-6.7: Release exist
+rhel-6.7-eus: Release exist
+rhel-6.8: Release exist
+rhel-6.9: Release exist
+rhel-6-eus: No ProductVersion or Release
+rhel-6-updates: Release exist
+rhel-7: ProductVersion exist
+rhel-7.0: Release exist
+rhel-7.1: Release exist
+rhel-7.1-eus: Release exist
+rhel-7.2: Release exist
+rhel-7.2-aus: No ProductVersion or Release
+rhel-7.2-eus: Release exist
+rhel-7.3: Release exist
+rhel-7.3-aus: No ProductVersion or Release
+rhel-7.3-eus: No ProductVersion or Release
+rhel-7-eus: No ProductVersion or Release
+rhel-7-updates: No ProductVersion or Release
+rhelle-7: ProductVersion exist
+$VAR1 = bless( {
+                 'content' => [
+                                {
+                                  'version' => '1',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'dp-1',
+                                  'short' => 'dp',
+                                  'name' => 'Dummy Product'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-2.1',
+                                  'version' => '2.1',
+                                  'release_type' => 'ga'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'release_type' => 'ga',
+                                  'version' => '3',
+                                  'base_product_id' => 'rhel-3'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-4',
+                                  'version' => '4',
+                                  'release_type' => 'ga',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '4.5',
+                                  'release_type' => 'eus',
+                                  'base_product_id' => 'rhel-4.5-eus'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-4.7-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '4.7',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'release_type' => 'ga',
+                                  'version' => '5',
+                                  'base_product_id' => 'rhel-5'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-5.2-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '5.2'
+                                },
+                                {
+                                  'version' => '5.3',
+                                  'release_type' => 'aus',
+                                  'base_product_id' => 'rhel-5.3-aus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-5.3-eus',
+                                  'version' => '5.3',
+                                  'release_type' => 'eus'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-5.4-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '5.4'
+                                },
+                                {
+                                  'release_type' => 'ga',
+                                  'version' => '5.6',
+                                  'base_product_id' => 'rhel-5.6',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-5.6-aus',
+                                  'version' => '5.6',
+                                  'release_type' => 'aus'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '5.6',
+                                  'release_type' => 'eus',
+                                  'base_product_id' => 'rhel-5.6-eus'
+                                },
+                                {
+                                  'version' => '5.7',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'rhel-5.7',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'release_type' => 'ga',
+                                  'version' => '5.8',
+                                  'base_product_id' => 'rhel-5.8'
+                                },
+                                {
+                                  'version' => '5.9',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'rhel-5.9',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '5.9',
+                                  'release_type' => 'aus',
+                                  'base_product_id' => 'rhel-5.9-aus'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-5.9-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '5.9'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6',
+                                  'release_type' => 'ga',
+                                  'version' => '6',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.0-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '6.0',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.1',
+                                  'release_type' => 'ga',
+                                  'version' => '6.1',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'release_type' => 'eus',
+                                  'version' => '6.1',
+                                  'base_product_id' => 'rhel-6.1-eus'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.2',
+                                  'version' => '6.2',
+                                  'release_type' => 'ga',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'release_type' => 'aus',
+                                  'version' => '6.2',
+                                  'base_product_id' => 'rhel-6.2-aus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'release_type' => 'eus',
+                                  'version' => '6.2',
+                                  'base_product_id' => 'rhel-6.2-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'release_type' => 'ga',
+                                  'version' => '6.3',
+                                  'base_product_id' => 'rhel-6.3',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'release_type' => 'eus',
+                                  'version' => '6.3',
+                                  'base_product_id' => 'rhel-6.3-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.4',
+                                  'release_type' => 'ga',
+                                  'version' => '6.4',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'version' => '6.4',
+                                  'release_type' => 'aus',
+                                  'base_product_id' => 'rhel-6.4-aus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'version' => '6.4',
+                                  'release_type' => 'eus',
+                                  'base_product_id' => 'rhel-6.4-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.5',
+                                  'release_type' => 'ga',
+                                  'version' => '6.5',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.5-aus',
+                                  'version' => '6.5',
+                                  'release_type' => 'aus',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.5-eus',
+                                  'release_type' => 'eus',
+                                  'version' => '6.5',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'release_type' => 'ga',
+                                  'version' => '6.6',
+                                  'base_product_id' => 'rhel-6.6',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'version' => '6.6',
+                                  'release_type' => 'aus',
+                                  'base_product_id' => 'rhel-6.6-aus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'version' => '6.6',
+                                  'release_type' => 'eus',
+                                  'base_product_id' => 'rhel-6.6-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '6.7',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'rhel-6.7'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.7-eus',
+                                  'version' => '6.7',
+                                  'release_type' => 'eus',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '6.8',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'rhel-6.8'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6.9',
+                                  'release_type' => 'ga',
+                                  'version' => '6.9',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'release_type' => 'eus',
+                                  'version' => '6',
+                                  'base_product_id' => 'rhel-6-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-6-updates',
+                                  'release_type' => 'updates',
+                                  'version' => '6',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7',
+                                  'version' => '7',
+                                  'release_type' => 'ga',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7.0',
+                                  'release_type' => 'ga',
+                                  'version' => '7.0',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-7.1',
+                                  'version' => '7.1',
+                                  'release_type' => 'ga'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7.1-eus',
+                                  'version' => '7.1',
+                                  'release_type' => 'eus',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7.2',
+                                  'version' => '7.2',
+                                  'release_type' => 'ga',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7.2-aus',
+                                  'release_type' => 'aus',
+                                  'version' => '7.2',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'release_type' => 'eus',
+                                  'version' => '7.2',
+                                  'base_product_id' => 'rhel-7.2-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-7.3',
+                                  'release_type' => 'ga',
+                                  'version' => '7.3'
+                                },
+                                {
+                                  'base_product_id' => 'rhel-7.3-aus',
+                                  'version' => '7.3',
+                                  'release_type' => 'aus',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel'
+                                },
+                                {
+                                  'release_type' => 'eus',
+                                  'version' => '7.3',
+                                  'base_product_id' => 'rhel-7.3-eus',
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux'
+                                },
+                                {
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'short' => 'rhel',
+                                  'base_product_id' => 'rhel-7-eus',
+                                  'version' => '7',
+                                  'release_type' => 'eus'
+                                },
+                                {
+                                  'short' => 'rhel',
+                                  'name' => 'Red Hat Enterprise Linux',
+                                  'version' => '7',
+                                  'release_type' => 'updates',
+                                  'base_product_id' => 'rhel-7-updates'
+                                },
+                                {
+                                  'version' => '7',
+                                  'release_type' => 'ga',
+                                  'base_product_id' => 'rhelle-7',
+                                  'short' => 'rhelle',
+                                  'name' => 'Red Hat Enterprise Linux LE'
+                                }
+                              ],
+                 'search' => {}
+               }, 'PDC::BaseProducts' );

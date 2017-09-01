@@ -1,0 +1,12 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/PDC.pm
+lib/PDC/BaseProduct.pm
+lib/PDC/RestClient.pm
+lib/PDC/ReleaseType.pm
+t/00-load.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t

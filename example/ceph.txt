@@ -1,0 +1,331 @@
+$VAR1 = bless( {
+                 'short' => 'ceph',
+                 'internal' => bless( do{\(my $o = 0)}, 'JSON::PP::Boolean' ),
+                 'name' => 'Red Hat Ceph Storage',
+                 'product_versions' => [
+                                         bless( {
+                                                  'active' => bless( do{\(my $o = 1)}, 'JSON::PP::Boolean' ),
+                                                  'releases' => [
+                                                                  bless( {
+                                                                           'version' => '1.2',
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-6',
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'brew' => undef,
+                                                                           'active' => $VAR1->{'internal'},
+                                                                           'product_version' => 'ceph-1',
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'compose_set' => [],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'release_type' => 'ga',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-1.2@rhel-6'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'version' => '1.2',
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'brew' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'product_version' => 'ceph-1',
+                                                                           'active' => $VAR1->{'internal'},
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [],
+                                                                           'release_type' => 'ga',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-1.2@rhel-7'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'brew' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'active' => $VAR1->{'internal'},
+                                                                           'product_version' => 'ceph-1',
+                                                                           'version' => '1.2',
+                                                                           'base_product' => 'rhel-6',
+                                                                           'dist_git' => undef,
+                                                                           'release_type' => 'updates',
+                                                                           'release_id' => 'ceph-1.2-updates@rhel-6',
+                                                                           'bugzilla' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'compose_set' => [],
+                                                                           'name' => 'Red Hat Ceph Storage'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'release_type' => 'updates',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-1.2-updates@rhel-7',
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [],
+                                                                           'product_pages' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'brew' => undef,
+                                                                           'product_version' => 'ceph-1',
+                                                                           'active' => $VAR1->{'internal'},
+                                                                           'version' => '1.2',
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'product_version' => 'ceph-1',
+                                                                           'brew' => {
+                                                                                       'default_target' => 'ceph-1.3-rhel-7-candidate',
+                                                                                       'allowed_tags' => [
+                                                                                                           'ceph-1.3-rhel-7-candidate',
+                                                                                                           'ceph-1.3-rhel-7'
+                                                                                                         ]
+                                                                                     },
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'version' => '1.3',
+                                                                           'release_type' => 'ga',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-1.3@rhel-7',
+                                                                           'compose_set' => [],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'compose_set' => [
+                                                                                              'RHCEPH-1.3.3-RHEL-7-20161130.t.0'
+                                                                                            ],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'release_id' => 'ceph-1.3-updates@rhel-7',
+                                                                           'release_type' => 'updates',
+                                                                           'bugzilla' => undef,
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'version' => '1.3',
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'product_version' => 'ceph-1',
+                                                                           'brew' => {
+                                                                                       'allowed_tags' => [
+                                                                                                           'ceph-1.3-rhel-7-candidate',
+                                                                                                           'ceph-1.3-rhel-7'
+                                                                                                         ],
+                                                                                       'default_target' => 'ceph-1.3-rhel-7-candidate'
+                                                                                     },
+                                                                           'product_pages' => undef,
+                                                                           'integrated_with' => undef
+                                                                         }, 'PDC::Release' )
+                                                                ],
+                                                  'product_version_id' => 'ceph-1',
+                                                  'name' => 'Red Hat Ceph Storage',
+                                                  'version' => '1',
+                                                  'product' => 'ceph',
+                                                  'short' => 'ceph'
+                                                }, 'PDC::ProductVersion' ),
+                                         bless( {
+                                                  'product' => 'ceph',
+                                                  'version' => '2',
+                                                  'short' => 'ceph',
+                                                  'product_version_id' => 'ceph-2',
+                                                  'name' => 'Red Hat Ceph Storage',
+                                                  'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                  'releases' => [
+                                                                  bless( {
+                                                                           'version' => '2.0',
+                                                                           'base_product' => 'rhel-7',
+                                                                           'dist_git' => undef,
+                                                                           'brew' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'product_version' => 'ceph-2',
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'compose_set' => [],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'release_type' => 'ga',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-2.0@rhel-7'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'compose_set' => [],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'bugzilla' => undef,
+                                                                           'release_id' => 'ceph-2.0-updates@rhel-7',
+                                                                           'release_type' => 'updates',
+                                                                           'version' => '2.0',
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'brew' => undef,
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'product_version' => 'ceph-2'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [
+                                                                                              'RHCEPH-2.1-RHEL-7-20160930.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161004.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161005.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161006.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161010.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161010.t.1',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161011.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161012.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161012.t.1',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161013.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161014.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161017.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161018.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161021.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161021.t.1',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161027.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161028.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161028.t.1',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161101.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161103.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161103.t.1',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161103.t.2',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161110.t.0'
+                                                                                            ],
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'bugzilla' => undef,
+                                                                           'release_type' => 'ga',
+                                                                           'release_id' => 'ceph-2.1@rhel-7',
+                                                                           'base_product' => 'rhel-7',
+                                                                           'dist_git' => undef,
+                                                                           'version' => '2.1',
+                                                                           'product_version' => 'ceph-2',
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'brew' => undef
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'version' => '2.1',
+                                                                           'base_product' => 'rhel-7',
+                                                                           'dist_git' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'brew' => {
+                                                                                       'allowed_tags' => [
+                                                                                                           'ceph-2-rhel-7-candidate',
+                                                                                                           'ceph-2-rhel-7'
+                                                                                                         ],
+                                                                                       'default_target' => 'ceph-2-rhel-7-candidate'
+                                                                                     },
+                                                                           'product_pages' => undef,
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'product_version' => 'ceph-2',
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'compose_set' => [
+                                                                                              'RHCEPH-2.1-RHEL-7-20161201.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161207.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161208.t.0',
+                                                                                              'RHCEPH-2.1-RHEL-7-20161208.t.1'
+                                                                                            ],
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'release_id' => 'ceph-2.1-updates@rhel-7',
+                                                                           'bugzilla' => undef,
+                                                                           'release_type' => 'updates'
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'dist_git' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'version' => '2.2',
+                                                                           'product_version' => 'ceph-2',
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'brew' => {
+                                                                                       'default_target' => 'ceph-2-rhel-7-candidate',
+                                                                                       'allowed_tags' => [
+                                                                                                           'ceph-2-rhel-7-candidate',
+                                                                                                           'ceph-2-rhel-7'
+                                                                                                         ]
+                                                                                     },
+                                                                           'integrated_with' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [
+                                                                                              'RHCEPH-2.2-RHEL-7-20170111.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170113.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170116.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170123.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170124.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170125.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170126.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170130.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170131.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170131.t.1',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170201.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170202.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170203.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170203.t.1',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170206.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170211.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170213.t.0',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170213.t.1',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170213.t.2',
+                                                                                              'RHCEPH-2.2-RHEL-7-20170215.t.0'
+                                                                                            ],
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'release_type' => 'ga',
+                                                                           'release_id' => 'ceph-2.2@rhel-7',
+                                                                           'bugzilla' => undef
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'short' => 'ceph',
+                                                                           'errata' => undef,
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [],
+                                                                           'bugzilla' => undef,
+                                                                           'release_type' => 'updates',
+                                                                           'release_id' => 'ceph-2.2-updates@rhel-7',
+                                                                           'version' => '2.2',
+                                                                           'base_product' => 'rhel-7',
+                                                                           'dist_git' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'brew' => {
+                                                                                       'allowed_tags' => [
+                                                                                                           'ceph-2-rhel-7-candidate',
+                                                                                                           'ceph-2-rhel-7'
+                                                                                                         ],
+                                                                                       'default_target' => 'ceph-2-rhel-7-candidate'
+                                                                                     },
+                                                                           'integrated_with' => undef,
+                                                                           'product_version' => 'ceph-2',
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'}
+                                                                         }, 'PDC::Release' ),
+                                                                  bless( {
+                                                                           'release_type' => 'ga',
+                                                                           'release_id' => 'ceph-2.3@rhel-7',
+                                                                           'bugzilla' => undef,
+                                                                           'name' => 'Red Hat Ceph Storage',
+                                                                           'compose_set' => [],
+                                                                           'errata' => undef,
+                                                                           'short' => 'ceph',
+                                                                           'product_version' => 'ceph-2',
+                                                                           'active' => $VAR1->{'product_versions'}[0]{'active'},
+                                                                           'brew' => undef,
+                                                                           'product_pages' => undef,
+                                                                           'integrated_with' => undef,
+                                                                           'base_product' => 'rhel-7',
+                                                                           'dist_git' => undef,
+                                                                           'version' => '2.3'
+                                                                         }, 'PDC::Release' )
+                                                                ]
+                                                }, 'PDC::ProductVersion' )
+                                       ],
+                 'active' => $VAR1->{'product_versions'}[0]{'active'}
+               }, 'PDC::Product' );
