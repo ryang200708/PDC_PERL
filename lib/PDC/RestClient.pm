@@ -121,7 +121,7 @@ sub _get {
     my ($resource) = @_ if ( scalar @_ );
     my $headers = {
         Accept        => 'application/json',
-        Authorization => 'Token 90feef8b2d2fcd4d2073d6e46640ea1e55cc02ad'
+        Authorization => 'Token '
     };
     my $client = REST::Client->new();
     $client->GET( $resource, $headers );
